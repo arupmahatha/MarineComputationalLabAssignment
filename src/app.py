@@ -30,10 +30,10 @@ Upload your input file and adjust the parameters to see the results.
 # Sidebar for input parameters
 st.sidebar.header("Ship Parameters")
 lamdaByL = st.sidebar.number_input("λ / L:", value=1.2, step=0.01)
-length = st.sidebar.number_input("Length (m):", value=122.1, step=0.1)
-draft = st.sidebar.number_input("Draft (m):", value=7.8, step=0.1)
+length = st.sidebar.number_input("Length (m):", value=134.0, step=0.1)
+draft = st.sidebar.number_input("Draft (m):", value=6.7, step=0.1)
 displacement = st.sidebar.number_input("Displacement (tons):", value=14000, step=100)
-bml = st.sidebar.number_input("BML (m):", value=128.1, step=0.1)
+bml = st.sidebar.number_input("BML (m):", value=5.0, step=0.1)
 
 # Main content area
 st.header("Input Data")
